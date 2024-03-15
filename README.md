@@ -14,6 +14,10 @@ This is a simple implementation of a website that shows the different aspects of
 
 ### Links
 
+<<<<<<< HEAD
+=======
+- Solution URL: https://www.frontendmentor.io/solutions/omlette-receipe-site-o-4Xq30fng
+>>>>>>> 5cbcc85f4e1fc935de923e4632a2b7d8afd9b90b
 - Live Site URL: https://omelette-receipe-page.netlify.app/
 
 ## My process
