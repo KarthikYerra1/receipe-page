@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+/* Family: Young Serif - Weights: 400
+   Family: Outfit - Weights: 400, 600, 700 
+===============================================================
+   Font size - (p) - 16px min
+===============================================================
+   Colors[
+   Primary
+    - Nutmeg: hsl(14, 45%, 36%)
+    - Dark Raspberry: hsl(332, 51%, 32%)
+
+  Neutral
+    - White: hsl(0, 0%, 100%)
+    - Rose White: hsl(330, 100%, 98%)
+    - Eggshell: hsl(30, 54%, 90%)
+    - Light Grey: hsl(30, 18%, 87%)
+    - Wenge Brown: hsl(30, 10%, 34%)
+    - Dark Charcoal: hsl(24, 5%, 18%)
+]
+================================================================
+   Layout
+    - Mobile: 375px
+    - Desktop: 1440px
+*/
+
+:root {
+  /* Colors */
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-rasperry: hsl(332, 51%, 32%);
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+
+  /* Font-Families */
+  --heading-font: "Young Serif", serif;
+  --font-2: "Outfit", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--white);
+}
+
+html {
+  font-size: 14px;
+}
+
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.web-image {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.content-container {
+  padding: 1rem 1.6rem;
+}
+
+.content-container > h1 {
+  font-family: var(--heading-font);
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  line-height: 2.6rem;
+  font-size: 2.2rem;
+  color: var(--dark-charcoal);
+}
+
+.paragraph {
+  color: var(--wenge-brown);
+  font-size: 1.1rem;
+  font-family: var(--font-2);
+  margin-top: 0.5rem;
+}
+
+.preparation-time-container {
+  background-color: var(--rose-white);
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  margin: 1rem 0;
+}
+
+.preparation-time-container > h3 {
+  font-family: var(--font-2);
+  color: var(--dark-rasperry);
+  margin: 1rem 0;
+  font-size: 1.5em;
+}
+
+.list-container {
+  padding: 0;
+  margin-left: 1.4rem;
+}
+
+.preparation-time-container ul > li {
+  font-size: 1.2em;
+}
+
+span {
+  font-weight: bold;
+}
+
+.section {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--light-grey);
+  box-shadow: 0 5px 5px -5px var(--light-grey);
+}
+
+.side-heading {
+  font-family: var(--heading-font);
+  font-size: 2rem;
+  color: var(--nutmeg);
+}
+
+.list-container {
+  padding: 0;
+  margin-left: 1.4rem;
+  margin-top: 0.5em;
+}
+
+.list-items {
+  font-family: var(--font-2);
+  padding-left: 0.9em;
+  color: var(--dark-charcoal);
+  margin-bottom: 0.6em;
+}
+
+ol li::marker {
+  color: var(--nutmeg);
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+td {
+  padding: 0.5rem;
+  font-family: var(--font-2);
+  color: var(--wenge-brown);
+}
+
+tr {
+  border-bottom: 1px solid var(--eggshell);
+}
+
+tr td:last-child {
+  color: var(--nutmeg);
+  font-weight: bold;
+}
+
+.attribution {
+  font-family: var(--heading-font);
+}
+
+.attribution a {
+  color: var(--dark-charcoal);
+  text-decoration: none;
+  font-family: var(--font-2);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.attribution a:hover,
+.attribution a:focus {
+  color: var(--white);
+  background-color: var(--dark-charcoal);
+  transform: scale(2);
+}
+
+@media (min-width: 578px) {
+  body {
+    background-color: var(--eggshell);
+    padding: 3rem;
+  }
+
+  .app-container {
+    width: 70%;
+    max-width: 800px;
+    margin: auto;
+    background-color: var(--white);
+    padding: 1em;
+    border-radius: 1rem;
+  }
+
+  .content-container {
+    padding: 1em;
+  }
+}
