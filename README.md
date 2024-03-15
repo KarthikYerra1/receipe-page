@@ -1,8 +1,6 @@
-# Frontend Mentor - Recipe page solution
-
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
 ## Overview
+
+This is a simple implementation of a website that shows the different aspects of the omelette like preparation, advantages and limitations. Nutritional Values
 
 ### Screenshot
 
@@ -16,7 +14,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL:
 - Live Site URL: https://omelette-receipe-page.netlify.app/
 
 ## My process
@@ -31,3 +28,4 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Author
 
 - Frontend Mentor - [@Karthikyerra](https://www.frontendmentor.io/profile/Karthikyerra)
+- Frontend Mentor Solution -
